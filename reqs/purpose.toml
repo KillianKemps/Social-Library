@@ -1,0 +1,40 @@
+# project purpose and definition documentation
+[REQ-purpose]
+text = '''
+Help to manage a personal library.
+'''
+
+[REQ-context]
+text = '''
+This REQ tells about the context of the project.
+
+Project should always be fully open source.
+Personal data should always be kept safe.
+An association to support the project may be created if needed.
+The development workflow is totally open. It means that anyone can contribute,
+the management is open, documentation, translation, code, etc.
+The project's structure may allow anybody to host the service himself.
+'''
+
+[REQ-personal-library]
+text = '''
+This personal library should let the user manage all his medias whatever the
+type.
+
+Using the service should help to know what the user has:
+  - the user will than be able to know what to buy and avoid to have duplicates
+  - the user can be at somebody's home and lend what he doesn't have
+
+User data should can always be exported and imported.
+'''
+
+[REQ-sharing]
+text = '''
+The shared aspect of Social Library should help people to interact
+between each other and to lend things.
+
+Using the service should:
+  - help users to find things that may not be found otherwise
+  - help users to exchange things for free
+  - help users to have an archive to whom things have been lent
+'''
