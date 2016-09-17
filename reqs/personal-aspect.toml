@@ -1,0 +1,11 @@
+[REQ-personal-page]
+text = '''
+A user should be able to create and edit a page for a media and reference its
+details.
+
+Details can be:
+  - Type: CreativeWork child category according to schema.org
+  - Description: Description about the object
+  - Comments: Subjective critic of the thing by the user
+  - Generic ID: Generic ID for the thing. Example ISBN for books.
+'''

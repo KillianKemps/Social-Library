@@ -1,7 +1,7 @@
 # project purpose and definition documentation
 [REQ-purpose]
 text = '''
-Help to manage a personal library.
+Help to manage a personal library of physical medias.
 '''
 
 [REQ-context]
@@ -16,10 +16,18 @@ the management is open, documentation, translation, code, etc.
 The project's structure may allow anybody to host the service himself.
 '''
 
-[REQ-personal-library]
+[REQ-definitions]
 text = '''
-This personal library should let the user manage all his medias whatever the
-type.
+Only medias can be managed in Social Library.
+
+Media: every physical object which complies to CreativeWork definition from
+schema.org https://schema.org/CreativeWork
+'''
+
+[REQ-personal]
+text = '''
+The personal aspect of Social library should let the user manage all his medias
+whatever the type.
 
 Using the service should help to know what the user has:
   - the user will than be able to know what to buy and avoid to have duplicates
@@ -37,4 +45,12 @@ Using the service should:
   - help users to find things that may not be found otherwise
   - help users to exchange things for free
   - help users to have an archive to whom things have been lent
+'''
+
+[REQ-database]
+text = '''
+The database aspect of Social Library should help to create a database of all
+medias according to the definition of Media in REQ-definitions.
+
+This database should be freely accessible through an API.
 '''
