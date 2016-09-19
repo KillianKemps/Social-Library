@@ -3,9 +3,11 @@ text = '''
 A user should be able to create and edit a page for a media and reference its
 details.
 
-Details can be:
-  - Type: CreativeWork child category according to schema.org
-  - Description: Description about the object
-  - Comments: Subjective critic of the thing by the user
-  - Generic ID: Generic ID for the thing. Example ISBN for books.
+A media can only be a child of CreativeWork according to schema.org and which
+is physical:
+  - Book: https://schema.org/Book
+  - Game: https://schema.org/Game
+  - Movie: https://schema.org/Movie
+  - MusicPlaylist: https://schema.org/MusicPlaylist
+  - TVSeries: https://schema.org/TVSeries
 '''
