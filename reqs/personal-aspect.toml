@@ -47,4 +47,9 @@ A user should be able to add and remove a media from his library.
 A media can be added directly by the user by creating it as described in
 [REQ-personal-media] or being added from the Social Library database aggregated
 from all users.
+
+If the media is not yet available in the database, data can be fetched from a
+third party database or website like Amazon to autocomplete some parts of the
+required fields after the user has at least given the title or the identifier
+(ISBN for books).
 '''
