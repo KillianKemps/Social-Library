@@ -16,3 +16,12 @@ Both users can then proceed the exchange by knowing the state of each media.
 
 Currently there is no guarantee about a good experience when lending medias.
 '''
+
+[REQ-sharing-meeting]
+text = '''
+Users going to exchange things will set up their meeting point through a chat
+(email?).
+
+Discussing before about a meeting point allows users to meet at any location
+without having to give some personal address.
+'''
