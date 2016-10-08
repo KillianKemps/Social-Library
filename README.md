@@ -12,4 +12,8 @@ Otherwise, an IRC canal is bridged with the Matrix room at #social-library on Fr
 
 Follow our tasks on [Taiga project management tool](https://tree.taiga.io/project/killian-social-library/)
 
+Social Library's specifications are available on this [repository](https://github.com/Social-Library-Org/specs-docs).
+
+And all Social Library's design material is available on this other [repository](https://github.com/Social-Library-Org/design-docs).
+
 Everybody is welcome!
